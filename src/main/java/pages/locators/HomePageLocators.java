@@ -9,6 +9,10 @@ public class HomePageLocators {
 	@FindBy(xpath = "//div[contains(text(),'Swag Labs')]")
     public  WebElement homePageUserLogo;
 	
+	@FindBy(xpath = "//button[@type='button']")
+    public  WebElement homePageSideOpt;
 	
+	@FindBy(xpath = "//a[text()='Logout']")
+    public  WebElement userLogout;
 	
 }

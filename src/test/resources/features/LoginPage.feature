@@ -8,8 +8,9 @@ Background:
     When User entered username as "standard_user" and Password as "secret_sauce"
     And User click on sign in button
     Then Validate the logo after login
+    And User is logout from Application
 
-@InvalidCredentials
+  @InvalidCredentials
   Scenario Outline: Login with invalid credentials
  
     When User entered username as "<username>" and Password as "<password>"
@@ -21,7 +22,7 @@ Background:
       | standard_user123      | secret_sauce | Epic sadface: Username and password do not match any user in this service    |
       
       
-@MissingUsername @FailedTest
+@MissingUsername
   Scenario: Login with blank username
  
     When User entered username as "" and Password as "secret_sauce"

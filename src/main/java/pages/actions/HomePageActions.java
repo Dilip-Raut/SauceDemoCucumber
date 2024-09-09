@@ -18,4 +18,13 @@ public class HomePageActions {
     public String getHomePageLogoText() {
         return homePageLocators.homePageUserLogo.getText();
     }
+    
+    public void clickonSideOpt() {
+    	homePageLocators.homePageSideOpt.click();
+    }
+    
+    public void clickonLogout() {
+    	homePageLocators.userLogout.click();
+    }
+    
 }

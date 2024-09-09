@@ -1,4 +1,4 @@
-package steps;
+package stepss;
 
 import org.testng.Assert;
 
@@ -41,6 +41,13 @@ public class LoginPageDefinitions {
 	
 	}
 
+	@And("User is logout from Application")
+	public void user_is_logout_from_application() throws InterruptedException {
+	    objHomePage.clickonSideOpt();
+	    Thread.sleep(2000);
+	    objHomePage.clickonLogout();
+	    Thread.sleep(2000);
+	}
 	
 	@Then("User should be able to see error message {string}")
 	public void user_should_be_able_to_see_error_message(String expectedErrorMessage) throws InterruptedException {

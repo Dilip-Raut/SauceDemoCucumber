@@ -6,7 +6,7 @@
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <cucumber.version>7.18.1</cucumber.version>
-    <selenium.version>4.23.0</selenium.version>
+    <selenium.version>4.18.0</selenium.version>
     <testng.version>7.9.0</testng.version>
     <apache.common.version>2.4</apache.common.version>
     <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>

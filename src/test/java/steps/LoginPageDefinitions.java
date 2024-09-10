@@ -1,4 +1,4 @@
-package stepss;
+package steps;
 
 import org.testng.Assert;
 
